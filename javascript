@@ -49,9 +49,16 @@ Java Script
       
       var quo=10/2;
       
+      var rem=10%2;
+      
       increment ++;
       
       decrement --;
+  -----------
+  =>To declare string
+       var first = "Hi";
+       
+       var second = "hello";
       
       
      
