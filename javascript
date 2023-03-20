@@ -10,8 +10,8 @@ Java Script
      ....
      ...
      */ ->Multiline comment
- 
- =>Data types
+----------
+=>Data types
       *Number
       *string
       *undefined
@@ -19,3 +19,10 @@ Java Script
       *boolean
       *symbol
       *object
+----------
+=>To declare variable
+     var myname="Aswin"
+     
+     let ourname="SECE"
+     
+     const pi=3.14
