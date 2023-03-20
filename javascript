@@ -35,7 +35,11 @@ Java Script
      b = a;
      
      console.log(a)  // 7
-     
+ ----------
+=>javaScript is a case sensitive languages , variable declared mast be case sensitive
+      e.g var studyGithub;
+          studyGithub = 10;
+ -----------
      
      
      
