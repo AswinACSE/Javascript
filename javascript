@@ -26,3 +26,18 @@ Java Script
      let ourname="SECE"
      
      const pi=3.14
+----------
+=>Sorting values with the assignment operator
+     var a;
+     var b = 2;
+     
+     a = 7;
+     b = a;
+     
+     console.log(a)  // 7
+     
+     
+     
+     
+     
+     
