@@ -109,8 +109,14 @@ Java Script
        var myarr = [1,"hello"] // it can contain any type of data types
    -----------
    => Nested array
-       var myarr = [["hi",1] , ["hello",2]]
+       var myarr = [["hi",1] , ["hello",2]];
    -----------
-   
+   => access array element
+       var arr = [10,20,30];
+       var myarr = arr[1]; 
+   -----------
+   => Modify array element
+       var arr = [10,20,30];
+       var arr[1] = 21;
      
      
