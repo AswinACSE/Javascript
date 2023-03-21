@@ -98,8 +98,12 @@ Java Script
        num = str[1];
        console.log(num) // s
    -----------
-   
-   
+   => To get last characting
+       var str = "Aswin"
+       var num = "";
+       
+       num = str[str.length - 1];
+       console.log(num) // n
    
      
      
