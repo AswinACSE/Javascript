@@ -69,7 +69,16 @@ Java Script
        \t -> tab
        \b -> backspace
        \f -> formfeed
-      
+   -----------
+   => Plus equal operator
+       + =
+       var num1 = 10;
+       num1 += 20; 
+   -----------
+   => PLus equal operator for string
+       var str1 = "Hi "
+       str1 += "Hello."
+   -----------
      
      
      
