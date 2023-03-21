@@ -85,6 +85,21 @@ Java Script
        var str1 = "Hi "
        str1 += "Hello."
    -----------
-     
+   => Length of a string
+       var len1 = 0;
+       var str1 = github;
+       len1 = str1.length;
+       console.log(len1) // 6
+   -----------
+   => To get specific character
+       var str = "Aswin"
+       var num = "";
+       
+       num = str[1];
+       console.log(num) // s
+   -----------
+   
+   
+   
      
      
