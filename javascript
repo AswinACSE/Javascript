@@ -70,6 +70,12 @@ Java Script
        \b -> backspace
        \f -> formfeed
    -----------
+   => To concate string
+       var str1 = "Hello " + "My Name is Aswin";
+       
+       var str1 = "hello"
+       var str2 = "Hi " + str1 + "my name is Aswin";
+   -----------
    => Plus equal operator
        + =
        var num1 = 10;
