@@ -123,6 +123,15 @@ Java Script
        var myarr = [ ["hello","hi"] , "hai" ];
        myarr.push(["h ","aswin"]);
    ----------- 
-
+   => To pop array elements
+       var myarr = [ ["hello","hi"] , "hai" ];
+       var removearr = myarr.pop(); // this well remove the last element or last item set in list
+   -----------
+   => To shift array elements
+       var myarr = [ ["hello","hi"] , "hai" ];
+       var removearr = myarr.shift(); // this well remove the first element or first item set in list
+   -----------
+   
+       
 
 
