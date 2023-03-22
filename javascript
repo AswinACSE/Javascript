@@ -118,5 +118,11 @@ Java Script
    => Modify array element
        var arr = [10,20,30];
        var arr[1] = 21;
-     
-     
+   -----------
+   => To push array elements
+       var myarr = [ ["hello","hi"] , "hai" ];
+       myarr.push(["h ","aswin"]);
+   ----------- 
+
+
+
