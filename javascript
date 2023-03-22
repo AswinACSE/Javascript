@@ -131,7 +131,24 @@ Java Script
        var myarr = [ ["hello","hi"] , "hai" ];
        var removearr = myarr.shift(); // this well remove the first element or first item set in list
    -----------
-   
-       
+    => To unshift array elements
+       var myarr = [ ["hello","hi"] , "hai" ];
+       var newarr = myarr.unshift("Welcome"); // this well add the item before first element or first item set in list
+   -----------
+   => Shopping list
+       var myarr = [ ["mango",3] , ["banana",6] , ["apple",2] , ["pineapple",7] ];
+   -----------
+   => To write reusable with funtions 
+       function myarr() {
+          console.log("hello world ");
+          }
+       myarr();
+   -----------
+   => TO pass argument into funtion
+       function myarr( a,b ) {
+          console.log( a + b );
+          }
+       myarr( 10,10 );
+   -----------
 
 
