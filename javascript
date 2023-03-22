@@ -160,6 +160,11 @@ Java Script
         console.log("Before : " + JSON.stringify( myarr ); \\ before : [1,2,3,4,5] \\ JOSON.stringify is to make array into string to display on the screen
         console.log(newarr(myarr , 6); \\ 1
         console.log("Before : " + JSON.stringify( myarr ); \\ after : [2,3,4,5,6]
-
+    ----------
+    => Boolean values
+         funtion myarr(){
+             return true;
+             return false;
+          }
 
 
