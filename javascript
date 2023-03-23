@@ -167,13 +167,7 @@ Java Script
              return false;
           }
     -----------
-    => if statement
-         funtion myarr(val){
-           if(val){
-             return "yes true";
-             }
-             return "no false";
-          }         
+   
           console.log(myarr(true)); // yes true
     -----------
     => Equality operator
