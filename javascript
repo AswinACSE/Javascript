@@ -176,14 +176,6 @@ Java Script
           }         
           console.log(myarr(true)); // yes true
     -----------
-    => Equality operator
-         funtion myarr(val){
-           if(val == 12){
-             return "Equa;";
-             }
-             return "Not equal";
-          }         
-          console.log(myarr(10)); // Not equal
      -----------
     => inquality operator
          funtion myarr(val){
