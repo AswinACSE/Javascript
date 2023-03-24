@@ -119,6 +119,14 @@ Java Script
        var arr = [10,20,30];
        var arr[1] = 21;
    -----------
+   => To push array elements
+       var myarr = [ ["hello","hi"] , "hai" ];
+       myarr.push(["h ","aswin"]);
+   ----------- 
+   => To pop array elements
+       var myarr = [ ["hello","hi"] , "hai" ];
+       var removearr = myarr.pop(); // this well remove the last element or last item set in list
+   -----------
   
    => Shopping list
        var myarr = [ ["mango",3] , ["banana",6] , ["apple",2] , ["pineapple",7] ];
