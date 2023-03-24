@@ -108,6 +108,9 @@ Java Script
    => Array
        var myarr = [1,"hello"] // it can contain any type of data types
    -----------
+   => Nested array
+       var myarr = [["hi",1] , ["hello",2]];
+   -----------
    
    => Shopping list
        var myarr = [ ["mango",3] , ["banana",6] , ["apple",2] , ["pineapple",7] ];
