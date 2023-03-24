@@ -111,7 +111,15 @@ Java Script
    => Nested array
        var myarr = [["hi",1] , ["hello",2]];
    -----------
-   
+   => access array element
+       var arr = [10,20,30];
+       var myarr = arr[1]; 
+   -----------
+   => Modify array element
+       var arr = [10,20,30];
+       var arr[1] = 21;
+   -----------
+  
    => Shopping list
        var myarr = [ ["mango",3] , ["banana",6] , ["apple",2] , ["pineapple",7] ];
    -----------
