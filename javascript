@@ -105,7 +105,10 @@ Java Script
        num = str[str.length - 1];
        console.log(num) // n
    -----------
-  
+   => Array
+       var myarr = [1,"hello"] // it can contain any type of data types
+   -----------
+   
    => Shopping list
        var myarr = [ ["mango",3] , ["banana",6] , ["apple",2] , ["pineapple",7] ];
    -----------
