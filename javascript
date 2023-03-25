@@ -179,7 +179,7 @@ Java Script
     => Equality operator
          funtion myarr(val){
            if(val == 12){
-             return "Equa;";
+             return "Equal";
              }
              return "Not equal";
           }         
@@ -188,10 +188,48 @@ Java Script
     => inquality operator
          funtion myarr(val){
            if(val != 10){
-             return "Equal;";
+             return "Equal";
              }
              return "Not equal";
           }         
           console.log(myarr(10)); // Not equal
-
+     -----------
+     => Greater than operator
+          funtion myarr(val){
+           if(val > 10){
+             return "greater";
+             }
+             return "Not greater";
+          }         
+          console.log(myarr(17)); // Greater
+      -----------
+      =>Greater than or equal to
+          funtion myarr(val){
+           if(val >= 10){
+             return "Equal";
+             }
+             return "Not equal";
+          }         
+          console.log(myarr(10)); // Equal
+      -----------
+      => Less than opertor
+            funtion myarr(val){
+             if(val < 10){
+               return "lesser";
+               }
+               return "greater";
+            }         
+           console.log(myarr(12)); // 12
+      -----------
+      => Less than or equal to
+            funtion myarr(val){
+           if(val <= 10){
+             return "Equal";
+             }
+             return "Not equal";
+          }         
+          console.log(myarr(10)); // Eqaual
+      
+      
+      
 
