@@ -258,5 +258,18 @@ Java Script
              return "No";
              }      
           }
-          console.log(myarr(46)); // NO      
-
+          console.log(myarr(46)); // Yes
+      -----------
+      => Else statement
+          funtion myarr(val){
+           if(val > 10 ){
+             return "Greater than 10";
+             }
+           else if(val < 10){
+             return "Less than 10;
+             }
+           else{
+             return "Not a number";
+             }      
+          }
+          console.log(myarr(5)); // Less than 10  
