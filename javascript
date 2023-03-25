@@ -238,6 +238,16 @@ Java Script
              return "No";
           }         
           console.log(myarr(46)); // Yes   
+      -----------
+      => Logical OR operator
+            funtion myarr(val){
+           if(val == 10 || val == 50){
+             return "Yes";
+             }
+             return "No";
+          }         
+          console.log(myarr(46)); // NO   
+       
       
       
 
