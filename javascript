@@ -219,7 +219,7 @@ Java Script
                }
                return "greater";
             }         
-           console.log(myarr(12)); // 12
+           console.log(myarr(12)); // greater
       -----------
       => Less than or equal to
             funtion myarr(val){
@@ -229,7 +229,15 @@ Java Script
              return "Not equal";
           }         
           console.log(myarr(10)); // Eqaual
-      
+      -----------
+      => Logical AND operator
+            funtion myarr(val){
+           if(val >= 10 && val <= 50){
+             return "Yes";
+             }
+             return "No";
+          }         
+          console.log(myarr(46)); // Yes   
       
       
 
