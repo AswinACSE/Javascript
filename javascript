@@ -318,5 +318,16 @@ Java Script
              return answer;
           }            
           console.log(caseswitch(10)); // delta
+      ------------
+      => Boolean value from funtion
+            funtion isless(a,b){
+               return a < b ;
+            }
+            console.log(isless(10 , 15); // true   
+      
+      
+      
+      
+      
       
       
