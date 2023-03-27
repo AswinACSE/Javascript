@@ -293,8 +293,30 @@ Java Script
              }
              return answer;
           }
-          console.log(caseswitch(2));
-      
-      
+          console.log(caseswitch(2)); // beta
+      ------------
+      => Switch case - default case
+           
+           It is like else statement if all the cases fails default case works
+           
+           funtion myarr(val){
+           var answer = "";
+           switch(val){
+              case 1:
+              answer = "alpha";
+              break;
+              case 2;
+              answer = "beta";
+              break;
+              case 3:
+              answer = "gamma";
+              break;
+              default:
+              answer = "delta";
+              break;
+             }
+             return answer;
+          }            
+          console.log(caseswitch(10)); // delta
       
       
