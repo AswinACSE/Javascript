@@ -325,7 +325,13 @@ Java Script
                return a < b ;
             }
             console.log(isless(10 , 15); // true   
-     
-      
+      ------------
+      => Object
+           var myobj = {
+           "name" = "cat",
+           "legs" = 4,
+           "tail" = 1,
+           };
+
       
       
