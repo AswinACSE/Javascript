@@ -332,6 +332,16 @@ Java Script
            "legs" = 4,
            "tail" = 1,
            };
-
+      ------------
+      => Accessing object using dot
+           var myobj = {
+           "name" = "cat",
+           "legs" = 4,
+           "tail" = 1,
+           };
+           
+           var animal = myobj.name;
+           var itslegs = myobj.legs;
+      
       
       
