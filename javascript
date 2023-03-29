@@ -359,5 +359,15 @@ Java Script
            
            var myanimal = myobj.inside.animal["pet name"];
            console.log(myanimal)
-      
+      ------------
+      => While loop
+           var myarr = [];
+           
+           var i = 1;
+           while(i < 6){
+               myarr.push(i);
+               i++;
+               }
+           console.log(myarr); // [1,2,3,4,5]    
+           
       
