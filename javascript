@@ -377,4 +377,17 @@ Java Script
                myarr.push(i);
                }
            console.log(myarr); // [1,2,3,4,5]  
+      -----------
+      => printing even number
+           var myarr = [];
+          
+           for(var i=1;i<10;i+=2){
+               myarr.push(i);
+               }
+           console.log(myarr); // [2,4,6,8]  
+      
+      
+      
+      
+      
       
