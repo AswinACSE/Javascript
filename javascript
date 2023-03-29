@@ -357,7 +357,7 @@ Java Script
                   }   
            };
            
-           var animal = myobj.inside.animal["pet name"];
-           console.log(animal)
+           var myanimal = myobj.inside.animal["pet name"];
+           console.log(myanimal)
       
       
