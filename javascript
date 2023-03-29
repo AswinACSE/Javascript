@@ -369,5 +369,12 @@ Java Script
                i++;
                }
            console.log(myarr); // [1,2,3,4,5]    
-           
+       ------------
+       => For loop
+           var myarr = [];
+          
+           for(var i=1;i<6;i++){
+               myarr.push(i);
+               }
+           console.log(myarr); // [1,2,3,4,5]  
       
