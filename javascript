@@ -342,6 +342,22 @@ Java Script
            
            var animal = myobj.name;
            var itslegs = myobj.legs;
-      
+      -------------
+      => Accessing nested object
+           var myobj = {
+             "inside":{
+                "animal":{
+                  "pet name" = "cat",
+                  "legs" = 4,
+                  "tail" = 1
+                  },
+                  "outside":{
+                     "dog":"barks"
+                     }
+                  }   
+           };
+           
+           var animal = myobj.inside.animal["pet name"];
+           console.log(animal)
       
       
