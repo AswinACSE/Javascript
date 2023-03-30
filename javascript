@@ -385,7 +385,14 @@ Java Script
                myarr.push(i);
                }
            console.log(myarr); // [2,4,6,8]  
-      
+      -----------
+      => Adding array elements using for loop
+           var myarr = [2,4,6,8];
+           sum = 0;
+           for(var i=0;i<myarr.length;i+=2){
+               sum += myarr[i];
+               }
+           console.log(sum); // 20
       
       
       
