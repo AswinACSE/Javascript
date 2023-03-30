@@ -393,7 +393,19 @@ Java Script
                sum += myarr[i];
                }
            console.log(sum); // 20
-      
+      -----------
+      => Nested loop
+           def mulitiple(arr){
+             var product = 1;
+             for(var i=0;i<myarr.length;i++){
+               for(var j=0;j<myarr[i].length;j++){
+                   product += myarr[i];
+                  }
+              }
+              return product;
+            }  
+           var product = mulitiple( [[1,2] , [3,4] , [5,6,7]] );
+           console.log(product);
       
       
       
