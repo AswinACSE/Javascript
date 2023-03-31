@@ -423,5 +423,15 @@ Java Script
              }
              
              strtoint("156");
-        -----------
-        
+       -----------
+       => ternary operator
+              funtion values(a,b){
+                 return a===b ? true : false;
+               }
+               values(5,5);
+       -----------
+       =>      
+              
+              
+              
+              
