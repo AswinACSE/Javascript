@@ -416,4 +416,12 @@ Java Script
             }while(sum<5);
            console.log(sum,myarr); // 11,[10]
       
-      
+       ------------
+       => Parseint funtion
+             function strtoint(str){
+                 return parseInt(str);
+             }
+             
+             strtoint("156");
+        -----------
+        
