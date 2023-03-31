@@ -406,7 +406,14 @@ Java Script
             }  
            var product = mulitiple( [[1,2] , [3,4] , [5,6,7]] );
            console.log(product);
-      
-      
+       ------------
+       => Do while loop
+           var myarr = [];
+           sum = 10;
+           do{
+               myarr.push(i);
+               sum++;
+            }while(sum<5);
+           console.log(sum,myarr); // 11,[10]
       
       
