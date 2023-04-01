@@ -35,12 +35,12 @@ Java Script
      b = a;
      
      console.log(a)  // 7
- ----------
+----------
 =>javaScript is a case sensitive languages , variable declared mast be case sensitive
       e.g var studyGithub; 
           studyGithub = 10;
- -----------
- => Basic maths 
+-----------
+=> Basic maths 
       var add=10+10;
       
       var sub=10-5;
@@ -54,13 +54,13 @@ Java Script
       increment ++;
       
       decrement --;
-  -----------
-  =>To declare string
+ -----------
+ =>To declare string
        var first = "Hi";
        
        var second = "hello";
-  -----------
-  =>Escape sequence
+-----------
+=>Escape sequence
        \' -> single quote
        \" -> Double quote
        \\ -> Backslash
@@ -69,23 +69,23 @@ Java Script
        \t -> tab
        \b -> backspace
        \f -> formfeed
-   -----------
-   => To concate string
+-----------
+=> To concate string
        var str1 = "Hello " + "My Name is Aswin";
        
        var str1 = "hello"
        var str2 = "Hi " + str1 + "my name is Aswin";
-   -----------
-   => Plus equal operator
+-----------
+=> Plus equal operator
        + =
        var num1 = 10;
        num1 += 20; 
-   -----------
-   => PLus equal operator for string
+-----------
+=> PLus equal operator for string
        var str1 = "Hi "
        str1 += "Hello."
-   -----------
-   => Length of a string
+-----------
+=> Length of a string
        var len1 = 0;
        var str1 = github;
        len1 = str1.length;
