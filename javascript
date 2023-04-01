@@ -90,22 +90,22 @@ Java Script
        var str1 = github;
        len1 = str1.length;
        console.log(len1) // 6
-   -----------
-   => To get specific character
+-----------
+=> To get specific character
        var str = "Aswin"
        var num = "";
        
        num = str[1];
        console.log(num) // s
-   -----------
-   => To get last characting
+-----------
+=> To get last characting
        var str = "Aswin"
        var num = "";
        
        num = str[str.length - 1];
        console.log(num) // n
-   -----------
-   => Array
+-----------
+=> Array
        var myarr = [1,"hello"] // it can contain any type of data types
    -----------
    => Nested array
