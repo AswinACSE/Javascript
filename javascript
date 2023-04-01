@@ -445,6 +445,13 @@ Java Script
               })();
               console.log(incre(5 , 2)); // 7
               console.log(incre(5)); // 6
-              
+       -----------
+       => Rest operator
+             cons incre = (funtion(){
+                return function incre(...args){ // this ... helps to convert passed parameters into array
+                     return arg.reduce((a,b) => a+b,0);
+                };
+              })();
+              console.log(incre(1 , 2 , 3));
               
               
