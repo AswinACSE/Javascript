@@ -436,7 +436,15 @@ Java Script
              var myconcat = (arr1,arr2) => arr1.concat(arr2);
              
              console.log(myconcat([1,2], [3,4,5]); // [1,2,3,4,5]
-              
+       -----------
+       => Default parameters
+             cons incre = (funtion(){
+                return function(num , val = 1){
+                     return num + val;
+                };
+              })();
+              console.log(incre(5 , 2)); // 7
+              console.log(incre(5)); // 6
               
               
               
