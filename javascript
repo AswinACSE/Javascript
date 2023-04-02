@@ -458,5 +458,9 @@ Java Script
        => Simple fields
               const createperson = (name, age, gender) => ({name, age, gender});
               console.log(createperson("Aswin", 19, "male"));
-       ----------
+       ---------- 
+       => Getters
+              get temperature(){
+                 return this.temp;
+                 }
        
