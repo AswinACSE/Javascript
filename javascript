@@ -107,23 +107,23 @@ Java Script
 -----------
 => Array
        var myarr = [1,"hello"] // it can contain any type of data types
-   -----------
-   => Nested array
+-----------
+=> Nested array
        var myarr = [["hi",1] , ["hello",2]];
-   -----------
-   => access array element
+-----------
+=> access array element
        var arr = [10,20,30];
        var myarr = arr[1]; 
-   -----------
-   => Modify array element
+-----------
+=> Modify array element
        var arr = [10,20,30];
        var arr[1] = 21;
-   -----------
-   => To push array elements
+-----------
+=> To push array elements
        var myarr = [ ["hello","hi"] , "hai" ];
        myarr.push(["h ","aswin"]);
-   ----------- 
-   => To pop array elements
+----------- 
+=> To pop array elements
        var myarr = [ ["hello","hi"] , "hai" ];
        var removearr = myarr.pop(); // this well remove the last element or last item set in list
    -----------
