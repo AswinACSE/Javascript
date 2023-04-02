@@ -454,4 +454,9 @@ Java Script
               })();
               console.log(incre(1 , 2 , 3));
         
-              
+       ----------
+       => Simple fields
+              const createperson = (name, age, gender) => ({name, age, gender});
+              console.log(createperson("Aswin", 19, "male"));
+       ----------
+       
