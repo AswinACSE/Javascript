@@ -463,4 +463,10 @@ Java Script
               get temperature(){
                  return this.temp;
                  }
-       
+       ----------
+       => setters
+              set temperature(updatedtemp){
+                 return this.temp = updatedtemp;
+                 }
+                 
+                 
