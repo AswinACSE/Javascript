@@ -1,0 +1,19 @@
+Javascript - local storage
+
+Notificatifying some message 
+
+    <h1>WELCOME</h1>
+    <button>alter user</button>
+
+    </script>
+    <script>
+        var btn = document.querySelector("button"); 
+        var title = document.querySelector("h1");
+        btn.onclick = function(){
+            userDetails(); // if we click the button , a notification will come
+        }
+
+        function userDetails(){
+            alert("DANGER");
+        }
+    </script>
