@@ -15,3 +15,35 @@ Notificatifying some message
             alert("DANGER");
         }
     </script>
+
+
+Localstorage - javascript 
+
+    <h1>WELCOME</h1>
+    <button id="btn1">alter user</button>
+    <button id="btn2">clear user</button>
+
+    <script>
+        var title = document.querySelector("h1");
+        var btn1 = document.querySelector("#btn1");
+        var btn2 = document.querySelector("#btn2");
+        btn1.onclick = function(){ 
+            userDetails(); // if we click the button , a notification will come and ask your name
+        }
+        btn2.onclick = function(){
+            localStorage.clear(); // if we click the button , local host is cleared
+        }
+
+        function userDetails(){
+            var name = prompt("Please enter your name");
+            localStorage.setItem("username ",name);
+            title.textContent = "WELCOME " + name;
+        }
+        if(!localStorage.getItem("username")){
+            userDetails();
+        }
+        else{
+            localStorage.getItem("username",name);
+            title.textContent = "WELCOME " + name;
+        }
+    </script>
